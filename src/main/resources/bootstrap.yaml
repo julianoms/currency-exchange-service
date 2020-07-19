@@ -4,6 +4,11 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enable: true
 
 server:
   port: 8000
